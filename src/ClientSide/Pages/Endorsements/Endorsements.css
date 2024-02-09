@@ -1,0 +1,20 @@
+@media only screen and (min-width: 1366px) and (max-width: 1439px) {
+    
+    .endroImg {
+        width: 735px ;
+        height: 679px;
+        padding-right: 66px;
+        padding-top: 50px;
+       
+
+    }
+    .endroText{
+        padding-top: 277px;
+        line-height: 88.92px;
+    }
+    .endroSocail{
+        margin-top: 227px;
+    }
+
+    
+  }

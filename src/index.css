@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @font-face {
+  font-family: 'mabella';
+  src: url('./ClientSide/Fonts/Mabella.TTF') format('TTF');
+
+} */
+
+@layer components {
+  .lR{
+    @apply  2xl:mx-[150px]  xl:mx-[100px] mx-[25px]
+  }
+  .tB{
+    @apply my-[50px]
+  }
+  .Headerlogo{
+    @apply 2xl:h-[81.92px] 2xl:w-[251.67]  xl:w-[230px] xl:h-[74.87px]
+  }
+  .footerHeading {
+    @apply 2xl:font-bold 2xl:text-[25px] 2xl:text-white 
+  }
+  .footerLinkText{
+    @apply 2xl:text-[18px] text-[#F5F5F5]
+  }
+  
+}
+
+@layer base {
+  h1{
+    @apply 2xl:text-[100px] 2xl:font-bold 2xl:text-white ;
+  }
+  h2 {
+    @apply text-[#12225D] 2xl:text-[80px] 2xl:font-bold  xl:text-[55px] text-[18px]
+  }
+  p{
+    @apply text-[#959595] 2xl:text-[25px] text-justify xl:text-[18px] text-[12px]
+  }
+}

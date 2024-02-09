@@ -1,0 +1,444 @@
+.copyright .copyright-link .contribute {
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.contribute {
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.make-donation {
+  font-family: "Oswald", sans-serif;
+}
+.select-amount {
+  /* font-family: "Bebas Neue", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif; */
+  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+.name {
+  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+.tacbox {
+  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.amount-button {
+  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.amount-button button:hover {
+  background-color: #d9d9d9;
+  color: #12225d;
+  transform: scale(1.1);
+}
+.donate-button {
+  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.social-media {
+  font-family: "Oswald", sans-serif;
+}
+.tacbox {
+  display: block;
+  /* padding: 1em;
+  margin: 2em; */
+  /* border: 3px solid #ddd; */
+  /* background-color: #eee; */
+  /* max-width: 800px; */
+}
+
+input {
+  height: 2em;
+  width: 2em;
+  vertical-align: middle;
+}
+
+#checkbox {
+  width: 29px;
+  height: 27px;
+  margin-right: 20px;
+}
+
+.monthly .one-time {
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+/* .copyright-link {
+  font-family: "Helvetica Neue", sans-serif;
+} */
+
+.link-title {
+  font-family: "Oswald", sans-serif;
+}
+.paid-for {
+  font-family: "Oswald", sans-serif;
+}
+
+.our-office {
+  font-family: "Oswald", sans-serif;
+}
+.po-box {
+  font-family: "Poppins", sans-serif;
+}
+.phone-number {
+  font-family: "Poppins", sans-serif;
+}
+.btn-group {
+}
+
+.btn-group button {
+  background-color: #d9d9d9; /* Green background */
+  /* Green border */
+  color: #12225d;
+  /* White text */
+  /* padding: 21px 57px; */
+  /* Some padding */
+  padding-left: 57px;
+  padding-right: 57px;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 200px;
+  height: 62px;
+  /* border: 2px solid red; */
+  border: none;
+  /* border-radius: ; */
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.payment-type-color {
+  background-color: #12225d;
+  color: white;
+}
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #12225d;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  color: white;
+  border-radius: 10px;
+}
+
+/* responsive  */
+/* minimum screen size 1370 px and max-width 1439 px*/
+
+@media only screen and (min-width: 1370px) and (max-width: 1439px) {
+  .footer-container {
+    /* background-color: green; */
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .left-div {
+    margin-top: 50px;
+  }
+  .middle-div {
+    margin-top: 175px;
+  }
+  .last-div {
+    margin-top: 175px;
+  }
+  .daisane-logo {
+    width: 218.82px;
+    height: 74.87px;
+  }
+  .our-office {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: bold;
+  }
+  .po-box {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .phone-number {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .phone-number img {
+    width: 26.51px;
+    height: 27.87px;
+  }
+
+  .last-div {
+    /* background-color: green; */
+  }
+  /* .paid-for {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 30px;
+    color: red;
+  } */
+  /* .paid-for {
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: end;
+  } */
+  .paid-for-line img {
+    width: 176px;
+  }
+  .paid-for-line {
+    margin-bottom: 50px;
+  }
+  .social-media {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29.64px;
+    margin-bottom: 25px;
+  }
+  /* .social-media-icon {
+    display: flex;
+    justify-content: end;
+  } */
+  .social-media-icon img {
+    width: 28.44px;
+    height: 29px;
+    padding-right: 0;
+    margin-left: 25px;
+  }
+  .copyright-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .copyright-link {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21.76px;
+  }
+  .copyright {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 22.5px;
+  }
+}
+
+/* minimum screen size 1440 px and max-width 1480 px*/
+@media only screen and (min-width: 1440px) and (max-width: 1480px) {
+  .footer-container {
+    /* background-color: green; */
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .left-div {
+    margin-top: 50px;
+  }
+  .middle-div {
+    margin-top: 175px;
+  }
+  .last-div {
+    margin-top: 175px;
+  }
+  .daisane-logo {
+    width: 218.82px;
+    height: 74.87px;
+  }
+  .our-office {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: bold;
+  }
+  .po-box {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .phone-number {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .phone-number img {
+    width: 26.51px;
+    height: 27.87px;
+  }
+
+  .last-div {
+    /* background-color: green; */
+  }
+  /* .paid-for {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 30px;
+    color: red;
+  } */
+  /* .paid-for {
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: end;
+  } */
+  .paid-for-line img {
+    width: 176px;
+  }
+  .paid-for-line {
+    margin-bottom: 50px;
+  }
+  .social-media {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29.64px;
+    margin-bottom: 25px;
+  }
+  /* .social-media-icon {
+    display: flex;
+    justify-content: end;
+  } */
+  .social-media-icon img {
+    width: 28.44px;
+    height: 29px;
+    padding-right: 0;
+    margin-left: 25px;
+  }
+  .copyright-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .copyright-link {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21.76px;
+  }
+  .copyright {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 22.5px;
+  }
+}
+
+/* minimum screen size 360 px and max-width 420 px*/
+@media only screen and (min-width: 360px) and (max-width: 420px) {
+  .footer-container {
+    /* background-color: red; */
+    padding-left: 25px;
+    padding-right: 25px;
+    /* border: 2px solid red; */
+  }
+  .footer-sub-container {
+    display: flex;
+    flex-direction: column;
+    width: full;
+    /* border: 2px solid red; */
+  }
+  .phone-number {
+    font-size: 11px;
+  }
+  .phone-icon {
+    width: 13.77px;
+    height: 14.48px;
+  }
+  .email-icon {
+    width: 13.77px;
+    height: 14.48px;
+  }
+  .daisane-logo {
+    margin-bottom: 25px;
+    width: 71px;
+    height: 25px;
+  }
+  .middle-div {
+    margin-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 25px;
+  }
+  .left-div {
+    /* border: 2px solid red; */
+    margin-bottom: 25px;
+  }
+  .last-div {
+    /* position: relative; */
+    /* top: 20px; */
+    /* width: 126px; */
+    /* margin: 20px; */
+  }
+  .last-div {
+    margin-top: 0;
+    /* border: 2px solid red; */
+  }
+  .paid-for {
+    font-size: 12px;
+    font-weight: bold;
+    /* position: relative; */
+    /* margin-top: 100; */
+  }
+  .paid-for-line {
+    display: flex;
+    justify-content: start;
+    width: 83px;
+  }
+  .home-link,
+  .priorities-link,
+  .endorsements-link,
+  .news-link,
+  .privacy-link,
+  .condition-link {
+    margin-bottom: 0;
+  }
+
+  .social-media {
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    justify-content: start;
+    /* padding-top: 0; */
+    /* border: 2px solid red; */
+    margin-top: 10px;
+  }
+  .social-media-icon {
+    margin-bottom: 0;
+    /* border: 2px solid red; */
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: flex-start;
+    /* border: 2px solid red; */
+  }
+
+  .copyright-link {
+    font-size: 12px;
+  }
+  .copyright-container {
+    /* width: full; */
+    /* border: 2px solid red; */
+    padding-top: 25px;
+    padding-bottom: 50px;
+    /* padding-bottom: 25px; */
+    /* padding-bottom: 60px; */
+  }
+  .copyright {
+    /* margin-bottom: 0; */
+    font-size: 12px;
+    display: inline-block;
+    padding-bottom: 0;
+
+    /* font-weight: bold; */
+  }
+}

@@ -1,0 +1,10 @@
+@media only screen and (min-width: 1366px) and (max-width: 1439px) {
+  .topSpace {
+    padding-top: 30px;
+    padding-left: 35px;
+  }
+  .accordianText {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}

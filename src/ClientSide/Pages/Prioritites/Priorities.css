@@ -1,0 +1,52 @@
+.accordion-title {
+  font-family: "Oswald", sans-serif;
+}
+
+.accordion-description {
+  /* font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif; */
+}
+
+/* responsive  */
+/* minimum screen size 1370 px and max-width 1439 px*/
+@media only screen and (min-width: 1370px) and (max-width: 1439px) {
+}
+
+/* minimum screen size 360 px and max-width 1439 px*/
+@media only screen and (min-width: 360px) and (max-width: 420px) {
+  .accordion-div {
+    width: 310px;
+  }
+  .main-div {
+    /* background-color: red; */
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .disane-image-div {
+    margin-bottom: 25px;
+  }
+  .priority-div {
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+  }
+  .disane-image {
+    width: 310px;
+    height: 386px;
+    /* border: 10px solid green; */
+  }
+  .accordion-div {
+    /* display: none; */
+    margin-left: 0;
+    /* width: 50%; */
+  }
+  .accordion-title {
+    color: red;
+    font-size: 12px;
+    font-weight: bolder;
+  }
+  .accordion-description {
+    width: 295px;
+    font-size: 2px;
+  }
+}

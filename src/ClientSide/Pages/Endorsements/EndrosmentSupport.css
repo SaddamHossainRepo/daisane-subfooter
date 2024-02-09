@@ -1,0 +1,22 @@
+@media only screen and (min-width: 1366px) and (max-width: 1439px) {
+    .text {
+        font-size: 50px;
+        line-height: 60px;
+        margin-top: -12px;
+    }
+    .TextSub {
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    .supportImg {
+        height: 664px;
+        width: 605px;
+    }
+    .formHeading {
+        font-size: 18px;
+    }
+
+    
+
+}

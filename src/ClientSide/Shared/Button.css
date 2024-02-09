@@ -1,0 +1,65 @@
+.main-div {
+  /* font-family: "Oswald", sans-serif; */
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  padding-bottom: 0;
+  margin-top: 10px;
+  /* border: 2px solid red; */
+}
+
+.one-time-btn {
+  background-color: #d9d9d9;
+  color: #12225d;
+}
+.monthly-btn {
+  background-color: #d9d9d9;
+  color: #12225d;
+}
+
+.one-time-btn:hover {
+  background-color: #12225d;
+  color: white;
+}
+.monthly-btn:hover {
+  background-color: #12225d;
+  color: white;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 420px) {
+  .main-div {
+    width: 200px;
+    height: 62px;
+    font-size: 12px;
+    border-radius: 10px;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+  }
+  .one-time-btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+    width: 81px;
+    height: 32px;
+    border-radius: 5px;
+    /* border: 2px solid red; */
+  }
+  .monthly-btn {
+    margin-right: 2px;
+    /* border: 2px solid red; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    width: 81px;
+    height: 32px;
+    border-radius: 5px;
+    /* margin-right: 15px; */
+    /* border: 2px solid red; */
+
+    /* pt-[21px] pb-[21px] pl-[57px] pr-[57px] */
+  }
+}

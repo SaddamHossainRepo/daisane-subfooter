@@ -1,0 +1,60 @@
+@media only screen and (min-width: 1366px) and (max-width: 1440px) {
+  .carousel-card {
+    width: 343px;
+    /* height: 517px; */
+    /* margin-right: 100px; */
+    /* border: 2px solid red; */
+    margin-right: 40px;
+    padding-bottom: 50px;
+  }
+  .carousel-card-img {
+    width: 343px;
+    height: 276px;
+    /* overflow: visible; */
+  }
+  .carousel-des-div {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .carousel-title {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .carousel-des {
+    font-size: 18px;
+  }
+  .learn-more {
+    padding-top: 0;
+    margin-top: 0;
+  }
+}
+
+/* minimum screen size 360 px and max-width 420 px*/
+@media only screen and (min-width: 360px) and (max-width: 420px) {
+  .carousel-div {
+    /* display: flex;
+    overflow-wrap: break-word; */
+    /* gap: 20px; */
+    margin-right: 20px;
+    /* flex-direction: ; */
+  }
+  .line-2 {
+    margin-bottom: 60px;
+  }
+  .single-card-div {
+    width: 310px;
+    margin-right: 10px;
+    /* background-color: #ffffff; */
+    margin-right: 50px;
+  }
+  .carousel-card-img {
+    width: 310px;
+    height: 249.45px;
+  }
+  .carousel-title {
+    font-size: 12px;
+  }
+  .carousel-des {
+    font-size: 9px;
+  }
+}
